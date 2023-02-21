@@ -21,6 +21,8 @@ Desain yang saya buat menggunakan 4 Class:
 * Mahasiswa
 Dengan tambahan file Main
 
+`khusus bahasa` `C++` dan `PYTHON` menambahkan class `DatabaseMahasiswa` yang dirancang untuk percobaan mentimpan data dalam bentuk vector dan list, yang kemudian program dapat menerima inputan dan memungkinkan untuk CRUD dalm program.
+
 `Class Human` memiliki total tiga atribut:
 * **NIK** -> NIK manusia, `string`
 * **Nama** -> nama manusia, `string`
@@ -49,13 +51,25 @@ maka pewarisan dilakukan dari `Class Human` ke `Class SivitasAkademik` ke `Class
 
 
 ## Alur Program
-Inputan di hardcode
+Inputan di hardcode, kecuali untuk C++ dan Python dapat menerima inptan dan melakukan CRUD
 masuk ke dalam masing-masing atribut
 atribut di tampilkan dengan format tabel
 
+## UML DIAGRAM
+UML diagram yang direpresentasikan merupakan contoh dari diagram program Java.
+Berikut penjelasannya:
+Ada tiga kelas yaitu Human, SivitasAkademik, dan Mahasiswa.
+Kelas SivitasAkademik adalah anak kelas dari Human dan memiliki dua atribut tambahan yaitu universitas dan email.
+Kelas Mahasiswa adalah anak kelas dari SivitasAkademik dan memiliki tiga atribut tambahan yaitu NIM, fakultas, dan prodi.
+Setiap kelas memiliki metode display() untuk menampilkan informasi yang dimilikinya.
+Kelas Main hanya digunakan untuk menampilkan data dalam bentuk tabel dengan memanggil metode display() dari objek Mahasiswa.
 
 ## Dokumentasi
 **Program Java**
 
 ![Java program](LATIHAN2/javass.jpeg)
+
+## Catatan
+- dokumentasi selain program Java tersedia dalam masing-masing folder sesuai dengan bahas program yang digunakan
+- UML Diagram tersedia dalam folder `LATIHAN2`
 
